@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table border="1" cellspacing="0" cellpadding="4">
+            <thead style="color: rgb(13, 144, 144);">
+                <tr>
+                    <th colspan="2"><h2>Đăng ký du lịch</h2></th>
+                </tr>
+            </thead>
+            <tbody style="background-color: bisque; color: rgb(13, 144, 144);">
+                <tr>
+                    <td>Họ và tên</td>
+                    <td>
+                        <input type="text" name="name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td>
+                        <input type="text" name="address" id="address">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td>
+                        <input type="number" name="phone" id="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Khách Việt Nam</td>
+                    <td>
+                        <input type="checkbox" name="isVN" id="isVN">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chọn tour</td>
+                    <td>
+                        <select name="tour" id="tour">
+                            <optgroup label="Miền Bắc">
+                                <option value="">Hà Nội - Hạ Long - Sapa</option>
+                                <option value="">Hà Nội - Chùa Hương - Ninh Bình</option>
+                                <option value="">Hà Nội - Cát Bà - Tuấn Châu</option>
+                            </optgroup>
+                            <optgroup label="Miền Trung">
+                                <option value="">Huế - Bạch Mã - Đà Nẵng</option>
+                                <option value="">Nha Trang - Đà Lạt</option>
+                                <option value="">Buôn mê thuột - Gia Lai - Kontum</option>
+                            </optgroup>
+                            <optgroup label="Miền Nam">
+                                <option value="">TP.HCM - Cần Thơ - Cà Mau</option>
+                                <option value="">TP.HCM - Mỹ Tho</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phương tiện</td>
+                    <td>
+                        <input type="radio" name="transportation" id="plane">
+                        <label for="plane">Máy bay</label>
+                        <input type="radio" name="transportation" id="car">
+                        <label for="car">Xe ô tô</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                            <legend >Số lượng đoàn khách</legend>
+                            Người lớn <input type="number" name="adult" id="adult">
+                            Trẻ em <input type="number" name="child" id="child">
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ghi chú thêm</td>
+                    <td>
+                        <select multiple name="note" id="note">
+                            <option value="">Có trẻ em dưới 6 tuổi</option>
+                            <option value="">Có 2 người ăn chay</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot style="background-color: bisque; color: orange;">
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" name="accept" id="accept" value="Đồng ý">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">Bạn đã đăng ký thành công!!!</td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" style="width: 300px;">
+        <div style="background-color: red; color: white;">Thông tin danh mục chất liệu</div><br>
+        <span>Tên (Title)</span><br>
+        <input type="text" name="name" id="name" style="width: 280px;"><br>
+        <span>Từ khóa SEO</span><br>
+        <input type="text" name="keyword" id="keyword" style="width: 280px;"><br>
+        <span>Mô tả SEO</span><br>
+        <input type="text" name="description" id="description" style="width: 280px;"><br>
+        <span>Ghi chú</span><br>
+        <textarea name="note" id="note" rows="3" cols="37"></textarea><br>
+        <span>Trạng thái</span>
+        <span>
+            <input type="radio" name="status" id="active">
+            <label for="active">Hoạt động</label>
+            <input type="radio" name="status" id="block">
+            <label for="block">Đang khóa</label>
+        </span>
+        <hr>
+        <div style="display: flex; justify-content: end; gap: 10px;">
+            <input type="reset" name="retype" id="retype" value="Nhập lại" style="background-color: red; color: white;">
+            <input type="submit" name="record" id="record" value="Ghi lại" style="background-color: green; color: white;">
+        </div>
+    </form>
+</body>
+
+</html>

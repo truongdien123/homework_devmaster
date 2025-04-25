@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table cellpadding="4">
+            <thead>
+                <tr>
+                    <th colspan="2" align="left">
+                        <h2>To Do List</h2>
+                        <hr>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2"><b>Item</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" name="item" id="item">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Description</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea name="description" id="description" rows="4" cols="70"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Priority</b></td>
+                    <td><b>Category</b></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="priority" id="priority" style="width: 200px;">
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="category" id="category" style="width: 200px;">
+                            <option value="personal">Personal</option>
+                            <option value="everyone">Everyone</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Due Date</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="number" name="month" id="month" style="width: 50px;">
+                        <b>/</b>
+                        <input type="number" name="day" id="day" style="width: 50px;">
+                        <b>/</b>
+                        <input type="number" name="year" id="year" style="width: 100px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span style="margin-left: 10px;">MM</span>
+                        <span style="margin-left: 40px;">DD</span>
+                        <span style="margin-left: 60px;">YYYY</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Status</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="status" id="status">
+                        Done.
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table cellpadding="6">
+            <thead>
+                <tr>
+                    <th colspan="2">Phiếu đăng ký tham gia chương trình khuyến mãi</th>
+                    <!-- <td></td> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td>
+                        <input type="text" name="hoVaTen" id="hoVaTen">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td>
+                        <input type="text" name="diaChi" id="diaChi">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td>
+                        <input type="number" name="dienThoai" id="dienThoai">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phái</td>
+                    <td>
+                        <input type="radio" name="gender" id="nam">
+                        <label for="nam">Nam</label>
+                        <input type="radio" name="gender" id="nu">
+                        <label for="nu">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghề nghiệp</td>
+                    <td>
+                        <select name="ngheNghiep" id="ngheNghiep">
+                        <option value="GV">Giáo viên</option>
+                        <option value="BS">Bác sĩ</option>
+                        <option value="KS">Kỹ sư</option>
+                        <option value="other">Khác</option>
+                        </select>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chọn sản phẩm tham gia</td>
+                    <td>
+                        <select multiple name="product" id="product">
+                            <option value="">Kem đánh răng</option>
+                            <option value="">Bột giặt</option>
+                            <option value="">Dầu gội đầu</option>
+                            <option value="">Sữa tắm</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số người dự đoán tham gia</td>
+                    <td>
+                        <input type="number" name="amount" id="amount">
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" name="accept" id="accept" value="Đồng ý">
+                    </td>
+                    <!-- <td></td> -->
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">Bạn đã đăng ký thành công</td>
+                    <!-- <td></td> -->
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
